@@ -1,9 +1,10 @@
-package com.yltrcc.demo.utils;
+package com.yltrcc.demo;
 
 
 import com.rabbitmq.client.CancelCallback;
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.DeliverCallback;
+import com.yltrcc.demo.utils.RabbitMqUtils;
 
 /**
  * Package: com.yltrcc.demo.utils
@@ -14,7 +15,7 @@ import com.rabbitmq.client.DeliverCallback;
  * @author yltrcc
  * @version 1.0
  */
-public class ReceiveLogs01 {
+public class ReceiveLogs02 {
 
     //交换机的名称
     public static final String EXCHANGE_NAME = "logs";

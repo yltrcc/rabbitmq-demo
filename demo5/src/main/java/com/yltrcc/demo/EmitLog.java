@@ -1,6 +1,7 @@
-package com.yltrcc.demo.utils;
+package com.yltrcc.demo;
 
 import com.rabbitmq.client.Channel;
+import com.yltrcc.demo.utils.RabbitMqUtils;
 
 import java.util.Scanner;
 
